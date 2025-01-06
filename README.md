@@ -95,7 +95,7 @@ Introduction to using git and GitHub. Will lead you through your first fork, clo
 
 
 # Create a Pull Request (PR)
-1. After refreshing the page for YOUR fork you should see a message stating that your branch is 1 commit ahead of `auberonedu/github-intro:main`. To the right of this there is a *Contribute# button. Click the *Contribute* button, and then click on the green *Open pull request* button.
+1. After refreshing the page for YOUR fork you should see a message stating that your branch is 1 commit ahead of `grc-cohort-21/github-intro:main`. To the right of this there is a *Contribute# button. Click the *Contribute* button, and then click on the green *Open pull request* button.
   ![Screenshot showing how to begin opening a pull request](images/begin-pr-screenshot.png)
 1. This will take you to a new page. At the bottom of the page you should see a visual representation of the differences (diff) your new change will introduce. Add a title and description to your pull request (PR).
 1. Click *Create pull request* to open the pull request.

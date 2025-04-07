@@ -13,13 +13,14 @@ Introduction to using git and GitHub. Will lead you through your first fork, clo
 
 ## Navigate your command line
 1. Open your command line (Git Bash on Windows, Terminal on Mac).
-1. Create a new directory where you will store repositories for this course. By default this will be in your home directory, but you can choose to put it elsewhere if you like. Run the below command to make a directory named `sdev301`.
+1. Create a new directory where you will store repositories for this course. By default this will be in your home directory, but you can choose to put it elsewhere if you like.
+1. If you have not already done so, create a directory (folder) where you can store code for this class. If you have already made this directory, you do not need to make it again and can skip to step 4. Otherwise, run the below command to make a directory named `sdev220`.
     ```
-    mkdir sdev301
+    mkdir sdev220
     ```
 1. Move into this new directory using the `cd` command:
     ```
-    cd sdev301
+    cd sdev220
     ```
 1. Keep your terminal window open, we will return to it in a moment.
 
@@ -89,13 +90,14 @@ Introduction to using git and GitHub. Will lead you through your first fork, clo
     ```
     git push
     ```
-1. You will be prompted for a username and password. Use your GitHub username, NOT your Green River username. If a fancy window shows up, use your password for the GitHub website. If it asks you for your password directly on the command line, use your [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Paste it in (right-click for Windows, cmd-V for Mac). When typing in your password/PAT it may not look like any text is showing up. That's OK, it's on purpose to make sure your password stays hidden.
+1. You will be prompted for a username and password. Use your GitHub username, NOT your Green River username. If a window pops up and gives you an option to authenticate via your browser, please use that option and log into your GitHub through the browser. If a GitHub window shows up and asks you for a password in that window, use your password for the GitHub website. If instead asks you for your password directly on the command line, use your [Personal Access Token](https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/managing-your-personal-access-tokens#creating-a-personal-access-token-classic). Paste it in (right-click for Windows, cmd-V for Mac). When typing in your password/PAT it may not look like any text is showing up. That's OK, it's on purpose to make sure your password stays hidden.
+   > It is common for things to not work quite right at this step. Don't be shy about asking for help in tutoring/office hours, or using an AI or friend to help debug issues. 
 1. If it completes without errors, return to your browser page with YOUR fork (your username should be at the top of the screen and in the URL) of the repo open. Refresh the page and you should see your new change to the README!
-   > Note that the changes you have made so far apply ONLY to your fork, not to the original repoitory that I created. Your version is changed, but GitHub won't let you change mine without my permission. In the next section you will use a pull request (PR) to ask for permission to put your changes into my original code. You will be *requesting* that I *pull* your changes into my version.
+   > Note that the changes you have made so far apply ONLY to your fork, not to the original repository that I created. Your version is changed, but GitHub won't let you change mine without my permission. In the next section you will use a pull request (PR) to ask for permission to put your changes into my original code. You will be *requesting* that I *pull* your changes into my version.
 
 
 # Create a Pull Request (PR)
-1. After refreshing the page for YOUR fork you should see a message stating that your branch is 1 commit ahead of `grc-cohort-21/github-intro:main`. To the right of this there is a *Contribute# button. Click the *Contribute* button, and then click on the green *Open pull request* button.
+1. After refreshing the page for YOUR fork you should see a message stating that your branch is 1 commit ahead of `grc-220-s25/github-intro:main`. To the right of this there is a *Contribute# button. Click the *Contribute* button, and then click on the green *Open pull request* button.
   ![Screenshot showing how to begin opening a pull request](images/begin-pr-screenshot.png)
 1. This will take you to a new page. At the bottom of the page you should see a visual representation of the differences (diff) your new change will introduce. Add a title and description to your pull request (PR).
 1. Click *Create pull request* to open the pull request.
